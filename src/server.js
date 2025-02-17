@@ -1,7 +1,7 @@
 const http = require('http');
 const htmlHandler = require('./htmlResponse.js');
 const responses = require('./responses.js');
-const { notFound } = require('./responses.js');
+// const { notFound } = require('./responses.js');
 
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
